@@ -1,0 +1,47 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class Player {
+public:
+    int hp;
+    int dmg;
+    string name;
+    void play() {
+        cout << "I played is Game\n";
+    }
+};
+
+class Warrior : public Player {
+public:
+
+};
+class Mage : public Player {
+public:
+
+    void mana() {
+        int mana = 100;
+    }
+
+};
+class Weapon {
+    void weapon_deagle() {
+        int kol_patron_deagle = 7;
+    }
+
+
+};
+
+
+int main()
+{
+    
+    vector <Weapon> weapons;
+   
+    Warrior war;
+    Mage mag;
+    
+
+    cin.get();
+    return 0;
+}
